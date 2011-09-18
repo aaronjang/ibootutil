@@ -1,0 +1,17 @@
+IOKit-based usb communication program that talks with the iPhone bootloader 
+
+Usage: ibootutil <args>
+
+Options:
+	-c <command>	Send a single command
+	-f <file>	Send a file
+	-l <file>	run commands by line in specified file
+	-a <idProduct>	Specify idProduct value manually
+
+	-k <payload>	usb_control_msg() exploit
+	-g		Send the limera1n exploit
+	-u		Send the steaks4uce exploit
+
+	-r		Reset the usb connection
+	-s		Open a shell with iBoot
+	-p		Print text while performing operations

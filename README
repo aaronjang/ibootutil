@@ -1,6 +1,6 @@
 IOKit-based usb communication program that talks with the iPhone bootloader 
 
-Usage: ibootutil <args>
+Usage: BootRa1n <args>
 
 Options:
 	-c <command>	Send a single command

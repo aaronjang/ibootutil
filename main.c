@@ -658,7 +658,7 @@ int iDevice_start_shell(iBootUSBConnection connection, const char *prompt) {
 }
 
 void usage() {
-	printf("Usage: BootRa1n <args>\n\n");
+	printf("Usage: ibootutil <args>\n\n");
 	
 	printf("Options:\n");
 	printf("\t-c <command>\tSend a single command\n");
@@ -679,8 +679,8 @@ int main (int argc, const char **argv) {
 	if(argc < 2)
 		usage();	
 	
-	printf("BootRa1n - Able to send commands/exploits/ and fun!\n");
-	printf("by Cyanid3-Dev Team\n\n");
+	printf("ibootutil - Made by gojohnnyboi\n");
+	printf("Cloned by Haifisch\n\n");
 	
 	char* opts = "cflakgurs";
 	iBootUSBConnection connection;
